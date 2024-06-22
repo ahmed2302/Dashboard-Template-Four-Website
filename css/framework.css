@@ -1,0 +1,362 @@
+/* =========================================== */
+/* ============== My Framework =============== */
+/* =========================================== */
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --blue-opacity: rgb(0 117 255 /20%);
+    --orange-color: #f59e0b;
+    --orange-opacity: rgb(245 158 11 /20%);
+    --green-color: #22c55e;
+    --green-opacity: rgb(34 197 94 /20%);
+    --red-color: #f44336;
+    --red-opacity: #f4455699;
+    --grey-color: #888;
+}
+
+/* Start box */
+.d-flex {
+    display: flex;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.f-grow {
+    flex: 1;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.col-gap-100 {
+    column-gap: 100px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.d-block {
+    display: block;
+}
+
+@media (max-width:767px) {
+    .block-mobile {
+        display: block;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+}
+
+/* End box */
+
+/* Start Position */
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+/* End Position */
+
+/* Start Padding + Margin */
+.m-20 {
+    margin: 20px;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+
+/* End Padding + Margin */
+
+/* Start color */
+.bg-eee {
+    background-color: #eee;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+.bg-blue-opacity {
+    background-color: var(--blue-opacity);
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+.bg-orange-opacity {
+    background-color: var(--orange-opacity);
+}
+
+.bg-green {
+    background-color: var(--green-color);
+}
+
+.bg-green-opacity {
+    background-color: var(--green-opacity);
+}
+
+.bg-red {
+    background-color: var(--red-color);
+}
+
+.bg-red-opacity {
+    background-color: var(--red-opacity);
+}
+
+.c-black {
+    color: black;
+}
+
+.c-white {
+    color: white;
+}
+
+.c-grey {
+    color: var(--grey-color);
+}
+
+.c-blue {
+    color: var(--blue-color);
+}
+
+.c-blue-opacity {
+    color: var(--blue-opacity);
+}
+
+.c-orange {
+    color: var(--orange-color);
+}
+
+.c-orange-opacity {
+    color: var(--orange-opacity);
+}
+
+.c-green {
+    color: var(--green-color);
+}
+
+.c-green-opacity {
+    color: var(--green-ppacity);
+}
+
+.c-red {
+    color: var(--red-color);
+}
+
+/* End color */
+
+/* Start Font */
+.txt-c {
+    text-align: center;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@media (max-width:767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
+}
+
+/* End Font */
+
+/* Start Border */
+.b-none {
+    border: none;
+}
+
+.b-ddd {
+    border: 1px solid #ddd;
+}
+
+.b-eee {
+    border: 1px solid #eee;
+}
+
+.bb-ddd {
+    border-bottom: 1px solid #ddd;
+}
+
+.rad-6 {
+    border-radius: 6px;
+}
+
+.rad-10 {
+    border-radius: 10px;
+}
+
+/* End Border */
+
+/* Start Width and Heaight */
+.w-full {
+    width: 100%;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.h-5 {
+    height: 5px;
+}
+
+/* End Width and Heaight */
+
+/* Start Component */
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+/* End Component */
